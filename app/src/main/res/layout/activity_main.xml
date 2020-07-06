@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorYellow"
+        android:fontFamily="@font/nanumpen"
+        android:gravity="center_horizontal"
+        android:text="실시간 영업점 복잡도"
+        android:textColor="@color/colorBrown"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/curTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorYellow"
+        android:fontFamily="@font/nanumpen"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorBrown"
+        android:textSize="25dp" />
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="656dp">
+    </RelativeLayout>
+
+
+</LinearLayout>
