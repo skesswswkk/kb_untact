@@ -28,7 +28,8 @@ public class MainPage extends AppCompatActivity  {
     protected void onCreate(Bundle savedlnstanceState) {
         super.onCreate(savedlnstanceState);
         setContentView(R.layout.activity_main);
-
+        int a=10;
+        int b =20;
         tttt tt = new tttt();
 
         try {
